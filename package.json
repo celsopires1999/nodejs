@@ -1,0 +1,23 @@
+{
+  "name": "node-son",
+  "version": "1.0.0",
+  "description": "playing with Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/celsopires1999/nodejs.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs"
+  ],
+  "author": "Celso Pires",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/celsopires1999/nodejs/issues"
+  },
+  "homepage": "https://github.com/celsopires1999/nodejs#readme"
+}
