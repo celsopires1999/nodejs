@@ -1,5 +1,8 @@
-const http = require("http");
-const handle= require("./handle");
+import http from "http";
+
+const handle = (req, res) => {
+    res.end("Hello from http module");
+}
 
 const server = http.createServer(handle);
 
