@@ -1,0 +1,42 @@
+###
+
+POST http://localhost:4002/products
+content-type: application/json
+
+{
+    "name": "Caneta Lilás",
+    "price": 3
+}
+
+###
+POST http://localhost:4002/products
+content-type: application/json
+
+{
+    "name": "Caderno Capa Dura",
+    "price": 33
+}
+
+
+###
+
+GET http://localhost:4002/products
+
+###
+
+GET http://localhost:4002/products/06200bd5-4d0b-4432-af44-18cad9699c37
+
+###
+
+PUT http://localhost:4002/products/b2c81f54-387d-41f5-8e47-9577f5e054d0
+content-type: application/json
+
+{
+    "name": "Caderno Capa Dura 100 folhas",
+    "price": 15.30
+}
+
+###
+
+DELETE http://localhost:4002/products/8da26f6a-1236-44ba-9ee7-a64ff977bc7f
+
